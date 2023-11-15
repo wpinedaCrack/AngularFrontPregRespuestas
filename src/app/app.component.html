@@ -1,0 +1,67 @@
+<!-- <app-inicio></app-inicio> -->
+<router-outlet></router-outlet>
+
+
+
+
+<!-- <h1>Mi nombre es {{nombreEjemplo}} con una suma de {{getSuma(10,15)}}</h1>
+
+<br>
+
+<input type="text" class="form-control" [placeholder]="textoPlaceHolder" [disabled]="deshabilitado">
+<br>
+<img [src]="imgSrc" alt="img" width="200px" height="200px">
+<br>
+<h3>{{texto}}</h3>
+<button class="btn btn-primary mr-2 btn-reg" (click)="cambiartexto()">Aceptar</button>
+<br><br>Two Way Data Binding<br> 
+<input id="ix1" type="text" class="form-control" placeholder="Escriba algo por aqui" [(ngModel)]="textoWayDataBind">
+
+{{textoWayDataBind}}
+<br><br>
+
+<div class="container mt-4">
+    <div class="row">
+        <h3>Listado de Estudiantes</h3>
+        <button class="brn btn-primary ml-auto" (click)="toogle()">Toogle Click</button>
+    </div>
+
+    <div class="table-responsive" *ngIf="mostrar">
+        <table class="table" >
+            <thead>
+                <td>No</td>
+                <td>Nombre</td>
+                <td>Estado</td>
+            </thead>
+            <tbody>
+                <tr *ngFor="let x of listEstudiantes; let i = index" [ngSwitch]="x.estado">
+                    <td>{{i}}</td>
+                    <td>{{x.nombre}}</td> -->
+                    
+                    <!-- <td [ngStyle]="{ 'font-style': x.estado==='ok'? 'italic':'normal'}">{{x.estado}}</td> -->
+                    <!-- <td> -->
+                        <!-- <span [ngClass]="x.estado==='ok' ? 'badge bg-secondary':'badge bg-warning text-dark'">
+                        {{x.estado}}
+                        </span>     -->
+                        
+                        
+                    <!-- Los comentario anteriores se dejan como ejemplo de ngStyle  y  ngClass-->  
+
+                    <!-- <td>   
+                        <span *ngSwitchCase="'peor'" class="badge bg-secondary">
+                            {{x.estado}}
+                        </span>                          
+                        <span *ngSwitchCase="'ok'" class="badge bg-warning text-dark">
+                            {{x.estado}}
+                        </span>  
+                        <span *ngSwitchCase="'mal'" class="badge bg-dark">
+                            {{x.estado}}
+                        </span>  
+                    </td>
+            </tbody>            
+        </table>
+    </div>
+</div>
+
+<h4 *ngIf="listEstudiantes.length===0">No hay nada que mostrar</h4> -->
+
